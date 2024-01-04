@@ -82,6 +82,18 @@
 .about-us {
 	text-align: justify;
 }
+.btn-cart {
+  opacity: 0;
+
+
+  transition-duration: 1s;
+}
+
+.position-relative:hover .btn-cart {
+  opacity: 100%;
+ 
+  transition-duration: 1s;
+}
 
 @media only screen and (max-width: 600px) {
   .icon-navbar{
