@@ -95,6 +95,7 @@
   transition-duration: 1s;
 }
 
+
 @media only screen and (max-width: 600px) {
   .icon-navbar{
   	display: none;
