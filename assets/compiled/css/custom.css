@@ -17,6 +17,7 @@
 
 .icon-navbar li i {
 	font-size: 25px;
+	cursor: pointer;
 }
 
 .nav-item .active {
