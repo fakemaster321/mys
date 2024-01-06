@@ -20,6 +20,10 @@
 	cursor: pointer;
 }
 
+.icon-navbar li i:hover {
+	color: #a06ed0;
+}
+
 .nav-item .active {
 	text-decoration: underline;
 }
