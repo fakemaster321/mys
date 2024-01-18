@@ -46,9 +46,10 @@
 </div> 
 </header>  -->
 
+
 <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.html">
       <img class="logo d-logo" src="./image/MYS-LOGO.png" alt="Logo">
     </a>
     <ul class="nav-header">
@@ -59,7 +60,7 @@
            <i class="bi bi-cart"></i>
           </li>
           <li class="nav-item">
-            <i class="bi bi-person"></i>
+            <i class="bi bi-person-circle"></i>
           </li> 
     </ul>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -77,27 +78,65 @@
             <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Collections</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link active" href="shop.html">Shop</a>
           </li>
            <li class="nav-item">
             <a class="nav-link" href="about.html">About us</a>
           </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
          <ul class="navbar-nav icon-navbar justify-content-end flex-grow-1 pe-5 align-items-center">
           <li class="nav-item">
-           <i class="bi bi-search"></i>
+            <div class="dropdown dropstart ">
+  <i class="bi bi-search" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"></i>
+  <div class="dropdown-menu bg-transparent">
+    <div class="input-group">
+  <input type="text" class="form-control" placeholder="Search Products" aria-label="Search Products" aria-describedby="button-addon2">
+  <button class="btn btn-dark" type="button" id="button-addon2">Search</button>
+</div>
+</div>
+    
+</div>
           </li>
-           <li class="nav-item">
-           <i class="bi bi-cart"></i>
+          <li class="nav-item">
+            <div class="dropdown dropstart ">
+  <i class="bi bi-cart" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"></i>
+  <div class="dropdown-menu px-5">
+    <p>Your Shopping Cart</p>
+    <p class="fs-7 text-center text-light">It appears that your cart is currently empty!</p>
+
+</div>
+    
+</div>
           </li>
+
              <li class="nav-item">
-            <i class="bi bi-person"></i>
+            <div class="dropdown dropstart">
+  <i class="bi bi-person-circle" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"></i>
+  <form class="dropdown-menu p-4">
+    <div class="mb-3">
+      <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+    </div>
+    <div class="mb-3">
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+        <label class="form-check-label" for="dropdownCheck2">
+          Remember me
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+    <button type="submit" class="btn btn-outline-dark">Sign up</button>
+  </form>
+
+</div>
           </li> 
         </ul>
       </div>
@@ -140,7 +179,7 @@
       <div class="position-relative">
         <img src="./image/carousel/D1.png" class="card-img" alt="...">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -149,7 +188,7 @@
       <div class="position-relative">
         <img src="./image/carousel/D2.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -158,7 +197,7 @@
       <div class="position-relative">
         <img src="./image/carousel/D3.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -168,7 +207,27 @@
       <div class="position-relative">
         <img src="./image/carousel/D2.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
+        </div>
+      </div>
+      <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
+    </div>
+
+     <div class="col-lg-3">
+      <div class="position-relative">
+        <img src="./image/carousel/D23.png" class="card-img" alt="..." loading="lazy">
+        <div class="position-absolute top-50 start-50 translate-middle btn-cart">
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
+        </div>
+      </div>
+      <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
+    </div>
+
+     <div class="col-lg-3">
+      <div class="position-relative">
+        <img src="./image/carousel/D23.png" class="card-img" alt="..." loading="lazy">
+        <div class="position-absolute top-50 start-50 translate-middle btn-cart">
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -181,34 +240,14 @@
           <a class="btn bg-white rounded-0">Add to Cart</a>
         </div>
       </div>
-      <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
+      <p class="text-center mt-4 text-dark" href="item.html">NEW COLOR - WHITE LOGO</p>
     </div>
 
      <div class="col-lg-3">
       <div class="position-relative">
         <img src="./image/carousel/D23.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
-        </div>
-      </div>
-      <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
-    </div>
-
-     <div class="col-lg-3">
-      <div class="position-relative">
-        <img src="./image/carousel/D23.png" class="card-img" alt="..." loading="lazy">
-        <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
-        </div>
-      </div>
-      <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
-    </div>
-
-     <div class="col-lg-3">
-      <div class="position-relative">
-        <img src="./image/carousel/D23.png" class="card-img" alt="..." loading="lazy">
-        <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -218,7 +257,7 @@
       <div class="position-relative">
         <img src="./image/carousel/S1.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -228,7 +267,7 @@
       <div class="position-relative">
         <img src="./image/carousel/S2.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -238,7 +277,7 @@
       <div class="position-relative">
         <img src="./image/carousel/S2.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -248,7 +287,7 @@
       <div class="position-relative">
         <img src="./image/carousel/S2.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -258,7 +297,7 @@
       <div class="position-relative img-gallery">
         <img src="./image/carousel/TOTE-BAG-BLACK.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -268,7 +307,7 @@
       <div class="position-relative img-gallery">
         <img src="./image/carousel/TOTE-BAG-BLACK-D2.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -279,7 +318,7 @@
       <div class="position-relative img-gallery">
         <img src="./image/carousel/TOTE-BAG-PURPLE.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0"href="item.html" >Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -290,7 +329,7 @@
       <div class="position-relative img-gallery">
         <img src="./image/carousel/TOTE-BAG-WHITE-D2.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -300,7 +339,7 @@
       <div class="position-relative img-gallery">
         <img src="./image/carousel/WOMAN-BLACK-TSHIRT.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
       <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
@@ -310,10 +349,10 @@
       <div class="position-relative img-gallery">
         <img src="./image/carousel/WOMAN-BLACK-TSHIRT-WHITE-LOGO.png" class="card-img" alt="..." loading="lazy">
         <div class="position-absolute top-50 start-50 translate-middle btn-cart">
-          <a class="btn bg-white rounded-0">Add to Cart</a>
+          <a class="btn bg-white rounded-0" href="item.html">Add to Cart</a>
         </div>
       </div>
-      <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
+      <p class="text-center mt-4 text-dark" href="item.html">NEW COLOR - WHITE LOGO</p>
     </div>
 
       <div class="col-lg-3">
@@ -323,7 +362,7 @@
           <a class="btn bg-white rounded-0">Add to Cart</a>
         </div>
       </div>
-      <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
+      <p class="text-center mt-4 text-dark" href="item.html">NEW COLOR - WHITE LOGO</p>
     </div>
 
       <div class="col-lg-3">
@@ -333,7 +372,7 @@
           <a class="p-3 btn bg-white rounded-0">Add to Cart</a>
         </div>
       </div>
-      <p class="text-center mt-4 text-dark">NEW COLOR - WHITE LOGO</p>
+      <p class="text-center mt-4 text-dark" href="item.html">NEW COLOR - WHITE LOGO</p>
     </div>
 
 
